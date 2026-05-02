@@ -1,4 +1,4 @@
-### Initialize providers & modules*
+### Initialize providers & modules
 terraform init
 
 ### Preview changes
