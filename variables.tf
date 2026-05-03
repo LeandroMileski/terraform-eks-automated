@@ -2,6 +2,16 @@ variable "region" {
   default = "eu-north-1"
 }
 
+variable "application" {
+  default = {
+    name = "myapp"
+  }
+}
+
+variable "environment" {
+  default = "dev"
+}
+
 variable "cluster_name" {
   default = "my-eks-cluster"
 }
@@ -15,7 +25,7 @@ variable "vpc_cidr_block" {
 }
 
 variable "node_instance_type" {
-  default = "t3.medium"
+  default = "t2.small"
 }
 
 variable "node_desired_size" { default = 2 }
