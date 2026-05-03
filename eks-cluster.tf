@@ -7,6 +7,7 @@ module "eks" {
 
     endpoint_public_access = true
     enable_cluster_creator_admin_permissions = true
+    enable_irsa = true
 
     compute_config = {
         enabled    = true
